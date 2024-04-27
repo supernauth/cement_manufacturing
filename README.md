@@ -9,11 +9,13 @@ It is important to differentiate the distinct types of binders because cement ha
 
 The goal is to predict the strength from the proportion of the materials.
 
-<img src="illustration.png" style="width: 567px; height: 440px; margin: 10px; border: 2px solid #000; box-sizing: border-box;">
+<center><img src="illustration.png" style="width: 671px; height: 449px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
 
 ## Result
 After modifying the data to the practical parameters, I built a ML model with Random Forest Regressor, I had an accuracy of 82,3%. 
 I made a curve for predicting the strength from the w/c ratio and made a quick calculator.
+
+<center><img src="illustration.png" style="width: 803px; height: 330px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
 
 ## Further possible development tips
 The place of origin and type of the materials matters much beyond the quantity, too. It would be nice to have data about that as well. 
