@@ -15,8 +15,12 @@ The goal is to predict the strength from the proportion of the materials.
 After modifying the data to the practical parameters, I built a ML model with Random Forest Regressor, I had an accuracy of 82,3%. 
 I made a curve for predicting the strength from the w/c ratio and made a quick calculator.
 
-<center><img src="illustration_2.png" style="width: 803px; height: 330px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
+<center><img src="illustration_3.png" style="width: 653px; height: 136px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
 
 ## Further possible development tips
 The place of origin and type of the materials matters much beyond the quantity, too. It would be nice to have data about that as well. 
-My suggestion would be to only have 28-days results. The data besides that gives too much opportunity to mislead the analysis and the ML model.
+
+My suggestion would be to only have 3-days, 7-days and most importantly, 28-days results (14-days data can substitute 7-days result, but 7-days is more useful in practice, since it can effect the model earlier).
+The data besides that gives too much opportunity to mislead the analysis and the ML model.
+
+<center><img src="illustration_4.png" style="width: 1398px; height: 740px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
