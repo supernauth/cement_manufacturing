@@ -19,6 +19,7 @@ I made a curve for predicting the strength from the w/c ratio and made a quick c
 
 ## Further possible development tips
 The place of origin and type of the materials matters much beyond the quantity, too. It would be nice to have data about that as well. 
+
 My suggestion would be to only have 3-days, 7-days and most importantly, 28-days results (14-days data can substitute 7-days result, but 7-days is more useful in practice, since it can effect the model earlier).
 The data besides that gives too much opportunity to mislead the analysis and the ML model.
 
